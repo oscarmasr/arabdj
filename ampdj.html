@@ -1,0 +1,75 @@
+<center>
+<!doctype html>
+<html lang="en">
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "Product",
+			"name": "Native HTML5 Radio Player",
+			"image": "https://www.flashradio.info/img/native-html-radio-player.jpg",
+			"description": "Worldwide first browser based standalone HTML5 MP3 Radio FM Stream Plugin Player in the fourth generation, playing all MPEG-Audio streams and is written in JavaScript compatible with iOS, Android and supports all browsers Firefox, Chrome, Safari, IE and Opera! It works responsive and allows you to rapidly weave cross platform radio stream into your web pages.",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.71",
+				"reviewCount": "38"
+			},
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "USD",
+				"price": "12",
+				"interactionCount": "469",
+				"itemCondition": "http://schema.org/UsedCondition",
+				"availability": "http://schema.org/InStock",
+				"url":"https://codecanyon.net/item/native-flash-radio/9672527" 
+			}
+		}
+	</script>
+
+	<style>
+		html, body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			width:100%;
+			height:100%;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="flashradiobig" style="width:100%; height: 100%;">
+		Radio Oscar Arab DJ
+	</div>
+
+	<script src="https://www.flashradio.info/js/jquery.min.js?v=1.18.12.05"></script>
+	<script type="text/javascript" src="https://www.flashradio.info/js/nativeflashradio/nativeflashradiov4.js?v=1.18.12.05"></script>
+	<script type="text/javascript">
+		$("#flashradiobig").flashradio({
+			userinterface: "big",
+			backgroundcolor: "linear-gradient(135deg, rgba(238,242,243,1) 0%, rgba(142,158,171,1) 100%)",
+			songfontname:"Oswald", 
+        	songgooglefontname:"Oswald:400",
+        	titlefontname:"Roboto", 
+        	titlegooglefontname:"Roboto:400",  
+			useanalyzer: "real",
+			themecolor: "#D80000",
+			themefontcolor:"#FFFFFF", 
+			streamurl: "http://streaming.radionomy.com/ArabDJ",
+			streampath: "",
+			radioname: "Arab DJ",
+			streamid: "1",
+			streamtype: "shoutcast2",
+			songinformationinterval:"10000",  
+			scroll: "auto", 
+			autoplay: "true", 
+			debug: "false", 
+			analyzertype: "3",
+			startvolume: "99",
+			usecover:"true",
+			corsproxy: "https://www.flashradio.info/corsproxy/?q=",
+			usestreamcorsproxy: "false"
+		});
+	</script>
+</body>
+</html>	
